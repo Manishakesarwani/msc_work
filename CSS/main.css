@@ -1,0 +1,195 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+}
+.container{
+    display: flex;
+    height: 100%;
+}
+.sidebar{
+    display: flex;
+    background-color: rgba(233, 178, 235, 0.8);
+    flex: 0.2;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    justify-content: space-between;    
+}
+.nav a{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: blue;
+}
+.main{
+    flex: 0.8;
+}
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    position: absolute;
+    background-color:violet;
+}
+.nav_links li{
+    list-style-type: none;
+    margin: 0px 30px;
+}
+.nav_links{
+    display: flex;
+    height: 100%;
+    margin: 0;
+    align-items: center;
+}
+.main_content{
+    height: 100%;
+    display: flex;
+}
+
+.images{
+    flex: 0.6;
+    background-image: url('../images/mypic2.jpg');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    clip-path: polygon(0% 0%, 50% 0%, 100% 50%, 50% 100%, 0% 100%);
+}
+
+.content{
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color:mediumpurple;
+    font-size: 30px;
+}
+
+.nav_links > li{
+    font-size: 15px;
+    background-color: floralwhite;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    color: dodgerblue;
+    font-weight: bold;
+    cursor:pointer;
+    opacity: 0.5;
+}
+li:hover{
+   opacity: 1;
+}
+
+.button{
+    background-color: rgba(10, 10, 10, 0.8);
+    margin: 30px;
+    padding: 10px;
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+}
+.button:active{
+    transform: scale(0.98);
+    box-shadow: 0 0 10px 5px rgba(90, 85, 85, 0.5);
+}
+li:active{
+    transform: scale(0.98);
+}
+.main_2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main1{
+    width: 100%;
+    height: 50px;
+    background-color: violet;
+}
+.backimage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 1300px;
+    background-image: url('/images/qualification_back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 90px;
+    font-weight: bold;
+    color: black;
+    
+}
+.qualification_content{
+    text-align: center;
+    list-style-type: none;
+}
+
+.qualification_content > li{
+    font-size: 40px;
+    margin-bottom: 100px;
+    color: dodgerblue;
+}
+#li1, #li2, #li3{
+    background-color: whitesmoke;
+}
+.footer{
+    display: flex;
+    background-color: violet;
+    height: 150px;
+}
+.footer_content{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    flex: 0.5;
+    font-family: monospace;
+}
+.facebook{
+    width: 50px;
+    height: 50px;    
+}
+.mail{
+    width: 70px;
+    height: 60px;
+    margin: 40px;
+}
+.icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0.5;
+}
+.linkedin{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+}
+.up_icon{
+    height: 40px;
+    width: 40px;
+}
+.image{
+  
+}
+
+
+
+
